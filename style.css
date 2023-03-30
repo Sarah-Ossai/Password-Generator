@@ -17,7 +17,7 @@ form{
     width: 300px;
     margin: auto;
     place-content: center;
-    margin-top: 10em;
+    margin-top: 6em;
     border-radius: 15px;
 }
 .span{
@@ -73,8 +73,6 @@ form{
 .checkbox::before{
     content: "";
     display: block;
-    width: 16px;
-    height: 16px;
     background-color: white;
     border-radius: 3px;
     border: 1px solid #055f05;
