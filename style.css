@@ -67,6 +67,7 @@ form{
     -moz-appearance: none;
     appearance: none;
     border-radius: 3px;
+    
 }
 .checkbox::before{
     content: "";
@@ -80,7 +81,7 @@ form{
 }
 .checkbox:checked::before{
     content: "\2713";
-    font-size: 18px;
+    font-size: 17px;
     text-align: center;
     line-height: 1;
     color: #055f05;
