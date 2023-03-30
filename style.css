@@ -66,15 +66,16 @@ form{
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    margin-right: 0.2em;
-    background-color: white;
     border-radius: 3px;
 }
 .checkbox::before{
     content: "";
     display: block;
+    width: 16px;
+    height: 16px;
     background-color: white;
     border-radius: 3px;
+    margin-right: 0.2em;
     border: 1px solid #055f05;
 }
 .checkbox:checked::before{
@@ -83,6 +84,7 @@ form{
     text-align: center;
     line-height: 1;
     color: #055f05;
+    margin-right: 0.2em;
     background-color: white;
 
 
